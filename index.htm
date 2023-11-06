@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Track and Buy</title>
+
+</head>
+<body>
+    <header >
+        <h1>Inventory</h1>
+    </header>
+    <section class="form">
+        <form id="myForm">
+        <h1>Add Items</h1>
+        <div>
+            <label for="item">Item Name:</label>
+            <input type="text" id="item" required>
+            <label for="description">Description:</label>
+            <input type="text" id="description" required>
+            <label for="price">Price:</label>
+            <input id="price" required>
+            <label for="quantity">Quantity:</label>
+            <input type="text" id="quantity" required>
+            <input type="submit" class="btn" value="Submit">
+            
+        </div>
+        
+    </form>
+
+    <div class="item" id="item">
+        <ul id="itemList">
+            
+        </ul>
+    </div>
+    </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
